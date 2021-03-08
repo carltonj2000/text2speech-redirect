@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Text To Speech</title>
+  </head>
+  <body>
+    <h1>Text To Speech</h1>
+    <p><a href="">Redirect</a></p>
+    <script>
+      const newLocation = window.location.origin + "/text2speech-html-css-js";
+      const a = document.querySelector("a");
+      a.href = newLocation;
+      console.log("redirecting to", newLocation);
+      window.location.replace(newLocation);
+    </script>
+  </body>
+</html>
